@@ -3,7 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class ByVariablesTest {
 
@@ -44,7 +43,7 @@ public class ByVariablesTest {
         System.out.println(linkText2.getTagName() + linkText2.getText());
 
         WebElement partialLinkText1 = driver.findElement(partialLinkText);
-        System.out.println(partialLinkText1.getTagName() +" " + partialLinkText1.getText());
+        System.out.println(partialLinkText1.getTagName() + " " + partialLinkText1.getText());
 
         WebElement xpath1 = driver.findElement(xpath);
         System.out.println(xpath1.getTagName());
